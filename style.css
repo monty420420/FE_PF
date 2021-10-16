@@ -201,6 +201,10 @@
      background-color: var(--color-dark-grey);
      padding: 20px;
   }
+ 
+  .skill{
+      margin-bottom: 32px;
+  }
 
   .skill_description{
       display: flex;
@@ -213,12 +217,23 @@
       background-color: var(--color-grey);
   }
 
+  .skill__value{
+      width: 70%;
+      height: 3px;
+      background-color: var(--color-orange);
+  }
+
   .skillset_right{
     flex-basis: 40%;
   }
 
   .tools{
       background-color: var(--color-grey);
+  }
+
+  .tools,
+  .etc{
+      padding: 20px;
   }
 
 
