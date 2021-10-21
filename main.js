@@ -11,17 +11,30 @@ if(window.scrollY > navbarHeight){
 }
 });
 
-//버튼 클릭시 원하는 스크롤 위치로 이동하기
+//navbar버튼 클릭시 원하는 스크롤 위치로 이동하기
 const navbarMenu = document.querySelector('.navbar__menu');
 navbarMenu.addEventListener('click', (event) =>{  
    const target = event.target;
-   const link =target.dataset.link;
+   const link = target.dataset.link;
    if(link == null){
        return;
    }
    console.log(event.target.dataset.link);
    const scrollTo = document.querySelector(link);
    scrollTo.scrollIntoView({behavior: 'smooth'});
+});
+
+//home의 contact me 클릭시 해당위치로 이동하기
+const homeContact = document.querySelector('.home__contact');
+homeContact.addEventListener('click',(event) =>{
+  const target = event.target;
+  const link = target.dataset.link;
+  if(link == null){
+    return;
+  }
+  console.log(event.target.dataset.link);
+  const scrollTo = document.querySelector(link);
+  scrollTo.scrollIntoView({behavior: 'smooth'});
 });
 
 
