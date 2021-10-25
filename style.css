@@ -384,6 +384,29 @@
     color: var(--color-orange);
 }
 
+/* Scroll */
+
+.arrow-up{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    width: 70px;
+    height: 70px;
+    font-size: 50px;
+    color: var(--color-white);
+    background-color: var(--color-pink);
+    border-radius: 50%;
+    /*display: none;*/ /*display사용시 animation이 안됨 opacity로 처리해보자*/
+    opacity: 0;
+    pointer-events: none; /*이벤트 대상이 될지*/
+    transition: all 300ms ease-in;
+}
+
+.arrow-up.visible{
+    opacity: 1;
+    pointer-events: auto;
+}
+
 /*For below 768px screen width*/
 @media screen and (max-width: 768px){  /*and다음 띄워쓰기 주의*/
     .navbar__toggle-btn{

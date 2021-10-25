@@ -52,9 +52,20 @@ document.addEventListener('scroll', ()=>{
   home.style.opacity = 1 - window.scrollY / homeHeight;
 });
 
+//스크롤내릴때 arrow up 보이게
+const arrowUp = document.querySelector('.arrow-up');
+document.addEventListener('scroll', () =>{
+ if (window.scrollY > homeHeight / 2){
+   arrowUp.classList.add('visible');
+ } else{
+   arrowUp.classList.remove('visible');
+ }
+});
 
-
-
+//arrow up button 다루기
+arrowUp.addEventListener('click', () =>{
+scrollIntoView('#home');
+});
 
 
 
