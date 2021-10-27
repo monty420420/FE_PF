@@ -302,6 +302,13 @@
     flex-wrap: wrap; /*공간에 차면 밑으로 내려가게*/
     justify-content: center;
     margin: 2px;
+    opacity: 1;
+    transition: all var(--animation-duration) ease-out;
+}
+
+.work__projects.ani-out{
+    opacity: 0.6;
+    transform: scale(0.96) translateY(40px);
 
 }
 
@@ -314,6 +321,10 @@
     height: 250px;
     margin: 2px;
     background-color: var(--color-light-white);
+}
+
+.project.invisible{
+    display: none;
 }
 
 .project_img{  /*담겨져있어야할 사진 크기 최대치*/

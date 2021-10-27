@@ -41,7 +41,7 @@ homeContact.addEventListener('click',(event) =>{
   /*const scrollTo = document.querySelector(link);
   scrollTo.scrollIntoView({behavior: 'smooth'});*/
   
-  /*두번째 방법*/
+  /*두번째 방법 기능 따로 추가해서 호출*/
   scrollIntoView(link); 
 });
 
@@ -67,8 +67,29 @@ arrowUp.addEventListener('click', () =>{
 scrollIntoView('#home');
 });
 
+//Projects
+const workBtnContainer = document.querySelector('.work__categories');
+const projectContainer = document.querySelector('.work__projects');
+const Projects = document.querySelectorAll('.project');
+workBtnContainer.addEventListener('click', (e) =>{
+const filter = e.target.dataset.filter || e.target.parentNode.dataset.filter; //숫자누를시 undefine되어서 부모노드도 추가
+if (filter == null){
+  return;
+}
+projectContainer.classList.add('ani-out');
+setTimeout(() =>{
+  projectContainer.classList.remove('ani-out');
+},300);
+Projects.forEach((project) => {
+console.log(project.dataset.type);
+if(filter ==='*' || filter === project.dataset.type){
+  project.classList.remove('invisible');
+} else {
+  project.classList.add('invisible');
+}
+});
 
-
+});
 
 
 //스크롤이동기능만 따로저장
