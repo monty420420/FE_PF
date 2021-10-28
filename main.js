@@ -76,6 +76,14 @@ const filter = e.target.dataset.filter || e.target.parentNode.dataset.filter; //
 if (filter == null){
   return;
 }
+
+//선택없애고 새로 클릭된것 선택
+const active = document.querySelector('.category__btn.selected');
+active.classList.remove('selected');
+const target = e.target.nodeName === 'BUTTON' ? e.target : e.target.parentNode;
+target.classList.add('selected');
+
+
 projectContainer.classList.add('ani-out');
 setTimeout(() =>{
   projectContainer.classList.remove('ani-out');
