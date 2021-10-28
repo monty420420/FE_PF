@@ -19,13 +19,14 @@ navbarMenu.addEventListener('click', (event) =>{
    if(link == null){
        return;
    }
-   /*1번째 방법*/
-   /*console.log(event.target.dataset.link);*/
-   /*const scrollTo = document.querySelector(link);
-   scrollTo.scrollIntoView({behavior: 'smooth'});*/
-   
-   /*두번째 방법*/
+   navbarMenu.classList.remove('open');
    scrollIntoView(link); 
+});
+
+//navbar 토글 버튼 화면작을때 클릭시
+const navbarToggleBtn = document.querySelector('.navbar__toggle-btn');
+navbarToggleBtn.addEventListener('click', ()=>{
+ navbarMenu.classList.toggle('open');
 });
 
 //home의 contact me 클릭시 해당위치로 이동하기
@@ -36,12 +37,6 @@ homeContact.addEventListener('click',(event) =>{
   if(link == null){
     return;
   }
-  /*1번째 방법*/
-  /*console.log(event.target.dataset.link);*/
-  /*const scrollTo = document.querySelector(link);
-  scrollTo.scrollIntoView({behavior: 'smooth'});*/
-  
-  /*두번째 방법 기능 따로 추가해서 호출*/
   scrollIntoView(link); 
 });
 
@@ -98,6 +93,7 @@ if(filter ==='*' || filter === project.dataset.type){
 });
 
 });
+
 
 
 //스크롤이동기능만 따로저장
