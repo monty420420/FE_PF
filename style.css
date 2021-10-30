@@ -116,7 +116,7 @@
 
   #navbar.navbar--dark {
       background-color: var(--color-pink);
-      padding: 8px;
+      padding: 3px;
   }
 
   .navbar__menu{
@@ -182,7 +182,7 @@
   }
 
   .home__contact:hover {
-      background-color: var(--color-orange);
+      background-color: var(--color-dark-pink);
   }
 
   /*Section common*/
@@ -452,7 +452,7 @@
     }
 
     #navbar.navbar--dark{
-        padding: 16px;
+        padding: 2px;
     }
 
     .navbar__menu{
