@@ -440,9 +440,9 @@
     }
     .navbar__toggle-btn{
         display: block;     
-        top: 16px;
-        right: 16px;
-        font-size: var(--font-medium);
+        top: 28px;
+        right: 24px; 
+        font-size: var(--font-large);    
     }
 
     #navbar{
