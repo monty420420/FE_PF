@@ -6,11 +6,11 @@
     --color-white: #ffffff;
     --color-light-white: #eeeeee;
     --color-dark-white: #bdbdbd;
-    --color-pink: #fe918d;
-    --color-dark-pink: #ff6863;
+    --color-pink: #115517;
+    --color-dark-pink: green;
     --color-dark-grey: #4d4d4d;
     --color-grey: #616161;
-    --color-light-grey: #7c7979;
+    --color-light-grey: #797c79;
     --color-blue: #73aace;
     --color-yellow: #fff7d1;
     --color-orange: #feb546;
@@ -154,9 +154,9 @@
 
   /*Home*/
   #home{
-      background: url(imgs/home-background.png);
-      padding: 40px;
-      text-align: center;
+    background: url(imgs/home-background.png);
+    padding: 40px;
+    text-align: center;
   }
 
   .home__avatar{
@@ -169,6 +169,10 @@
   .home__title,
   .home__description{
       color: var(--color-light-white);
+  }
+
+  .home_introduce{
+    color: var(--color-light-white);
   }
 
   .home__contact{
@@ -198,6 +202,9 @@
   }
 
   /*About*/
+  #about{
+      padding-top: 90px;
+  }
   .about__majors{
       display: flex;
       justify-content: center;
@@ -212,6 +219,7 @@
   
   #skills{
       background-color: var(--color-yellow);
+      padding-top: 90px;
   }
 
   .skillset{
@@ -265,6 +273,10 @@
   }
 
   /*Work*/
+#work{
+    padding-top: 90px;
+}  
+
 .work__categories{
     margin: 40px;
 }

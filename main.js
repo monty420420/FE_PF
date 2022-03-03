@@ -32,12 +32,7 @@ navbarToggleBtn.addEventListener('click', ()=>{
 //home의 contact me 클릭시 해당위치로 이동하기
 const homeContact = document.querySelector('.home__contact');
 homeContact.addEventListener('click',(event) =>{
-  const target = event.target;
-  const link = target.dataset.link;
-  if(link == null){
-    return;
-  }
-  scrollIntoView(link); 
+  scrollIntoView('#about'); 
 });
 
 //스크롤이 내려갈수록 홈을 점점 더 투명하게
