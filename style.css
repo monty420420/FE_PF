@@ -154,7 +154,7 @@
 
   /*Home*/
   #home{
-    background: url(imgs/home-background.png);
+    background-image: url(imgs/ds.png);
     padding: 40px;
     text-align: center;
   }
