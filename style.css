@@ -6,14 +6,13 @@
     --color-white: #ffffff;
     --color-light-white: #eeeeee;
     --color-dark-white: #bdbdbd;
-    --color-pink: #115517;
-    --color-dark-pink: green;
+    --color-light-blue: #addaec;
+    --color-sky-blue: skyblue;
     --color-dark-grey: #4d4d4d;
     --color-grey: #616161;
     --color-light-grey: #797c79;
-    --color-blue: #73aace;
     --color-yellow: #fff7d1;
-    --color-orange: #feb546;
+    --color-light-puple: #aaaaf1;
     --color-black: #000000;
   
     /* Font size */
@@ -111,11 +110,11 @@
       z-index: 1;
   }
   #navbar.open{
-    background-color: var(--color-pink);
+    background-color: var(--color-light-blue);
   }
 
   #navbar.navbar--dark {
-      background-color: var(--color-pink);
+      background-color: var(--color-light-blue);
       padding: 3px;
   }
 
@@ -139,7 +138,7 @@
 
   .navbar__menu__item:hover { 
     border: 1px solid var(--color-white);
-    background-color: var(--color-dark-pink);
+    background-color: var(--color-sky-blue);
     
   }
 
@@ -160,8 +159,9 @@
   }
 
   .home__avatar{
-      width: 250px;
-      height: 250px;
+      margin-top: 80px;
+      width: 180px;
+      height: 180px;
       border-radius: 50%; /*동그랗게*/
       border: 2px solid var(--color-light-white);
   }
@@ -186,7 +186,7 @@
   }
 
   .home__contact:hover {
-      background-color: var(--color-dark-pink);
+      background-color: var(--color-sky-blue);
   }
 
   /*Section common*/
@@ -203,74 +203,27 @@
 
   /*About*/
   #about{
-      padding-top: 90px;
-  }
-  .about__majors{
-      display: flex;
-      justify-content: center;
-      margin: 80px 0;     
-  }
-
-  .text_major{
-      font-weight: var(--weight-semi-bold);
-  }
+    padding-top: 90px;
+}
 
   /*Skill*/
-  
   #skills{
-      background-color: var(--color-yellow);
-      padding-top: 90px;
-  }
+    padding-top: 90px;
+}
+.skill__majors{
+    display: flex;
+    justify-content: center;
+    margin: 80px 0;     
+}
 
-  .skillset{
-      display: flex;
-      background-color: var(--color-light-grey);
-      color: var(--color-light-white)
-  }
+.front-end{
+    padding-right: 40px;
+}
 
-  .skillset__title{
-      color: var(--color-white);
-  }
-
-  .skillset__left{
-     flex-basis: 60%;
-     background-color: var(--color-dark-grey);
-     padding: 20px;
-  }
- 
-  .skill{
-      margin-bottom: 32px;
-  }
-
-  .skill_description{
-      display: flex;
-      justify-content: space-between;
-  }
-
-  .skill__bar{
-      width: 100%;
-      height: 3px;
-      background-color: var(--color-grey);
-  }
-
-  .skill__value{
-      width: 70%;
-      height: 3px;
-      background-color: var(--color-orange);
-  }
-
-  .skillset_right{
-    flex-basis: 40%;
-  }
-
-  .tools{
-      background-color: var(--color-grey);
-  }
-
-  .tools,
-  .etc{
-      padding: 20px;
-  }
+.text_major{
+    font-weight: var(--weight-semi-bold);
+}
+  
 
   /*Work*/
 #work{
@@ -290,7 +243,7 @@
 
 .category__btn.selected,
 .category__btn:hover {
-    background-color: var(--color-pink);
+    background-color: var(--color-light-blue);
     color: var(--color-white);
 }
 .category__btn.selected.category__count,
@@ -301,7 +254,7 @@
 
 
 .category__count{
-    background-color: var(--color-orange);
+    background-color: var(--color-light-puple);
     border-radius: 50%;
     color: var(--color-white);
     width: 24px;
@@ -371,11 +324,11 @@
 }
 
 .project__description h3{
-    color: var(--color-pink);
+    color: var(--color-light-blue);
 }
 
 .project__description span{
-    color: var(--color-orange);
+    color: var(--color-light-puple);
 }
 
 .project__description h3:after{
@@ -393,7 +346,7 @@
 
 /*Contact*/
 #contact {
-    background-color: var(--color-pink);
+    background-color: var(--color-light-blue);
 } 
 
 .contact__title,
@@ -414,7 +367,7 @@
 
 .contact__links i:hover{
     transform: scale(1.1);
-    color: var(--color-orange);
+    color: var(--color-light-puple);
 }
 
 /* Scroll */
@@ -427,7 +380,7 @@
     height: 70px;
     font-size: 50px;
     color: var(--color-white);
-    background-color: var(--color-pink);
+    background-color: var(--color-light-blue);
     border-radius: 50%;
     /*display: none;*/ /*display사용시 animation이 안됨 opacity로 처리해보자*/
     opacity: 0;
@@ -460,7 +413,7 @@
     #navbar{
         flex-direction: column;
         align-items: flex-start;
-        background-color: var(--color-pink);
+        background-color: var(--color-light-blue);
     }
 
     #navbar.navbar--dark{
