@@ -60,6 +60,7 @@
       list-style: none;
   }
 
+
   button{
       background-color: transparent;
       cursor: pointer;
@@ -90,7 +91,7 @@
   }
   
   p {
-    font-size: var(--font-regular);
+    font-size: var(--font-small);
     font-weight: var(--weight-regular);
     color: var(--color-black);
     margin: 4px 0;
