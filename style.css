@@ -61,6 +61,7 @@
   }
 
 
+
   button{
       background-color: transparent;
       cursor: pointer;
@@ -91,7 +92,7 @@
   }
   
   p {
-    font-size: var(--font-small);
+    font-size: var(--font-micro);
     font-weight: var(--weight-regular);
     color: var(--color-black);
     margin: 4px 0;
@@ -204,16 +205,12 @@
   }
 
   /*About*/
-  #about{
+#about{
     padding-top: 90px;
 }
-  #about_img{
-    float: left; 
-    padding-left: 100px;
-  }
-  #about_text{
-    float: left; 
-  }
+
+
+
 
   /*Skill*/
   #skills{
