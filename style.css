@@ -208,7 +208,25 @@
 #about{
     padding-top: 90px;
 }
-
+.produce{
+    display: flex;
+    justify-content: center;
+    margin: 80px 0;  
+    padding-right: 60px; 
+    margin-top: -10px; 
+}
+.about_img{
+    padding-right: 40px;
+    padding-left: 140px;
+}
+.about_text{
+    max-height: 600px;
+    text-align: left;
+    width: 500px;
+}
+.profile2_img{
+    height: 350px;
+}
 
 
 
@@ -226,12 +244,7 @@
 
 .front-end{
     padding-right: 40px;
-}
-
-.text_major{
-    font-weight: var(--weight-semi-bold);
-}
-  
+} 
 
   /*Work*/
 #work{
@@ -400,6 +413,26 @@
     opacity: 1;
     pointer-events: auto;
 }
+/*For below 1024px screen width*/
+@media screen and (max-width: 1024px){
+    :root{
+        /* Font size */
+    --font-micro: 13px;
+    }
+}
+@media screen and (max-width: 980px){
+    :root{
+        /* Font size */
+    --font-micro: 12px;
+    }
+}
+
+@media screen and (max-width: 900px){
+    :root{
+        /* Font size */
+    --font-micro: 11px;
+    }
+}
 
 /*For below 768px screen width*/
 @media screen and (max-width: 768px){  /*and다음 띄워쓰기 주의*/
@@ -448,14 +481,15 @@
         padding-top: 40px;
     }
 
-    .about__majors{
-        flex-direction: column;
-        margin-top: 30px;
-    }
-
     .major{
         margin-bottom: 38px;
     } 
+    
+    .profile2_img{
+        
+      
+    }
+
 
     .skillset{
        flex-direction: column;
@@ -481,6 +515,8 @@
     }
     
 }
+
+
 
 
 
