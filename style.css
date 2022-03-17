@@ -467,10 +467,6 @@
         margin-bottom: 38px;
     }    
 
-    .profile2_img{
-        height: 500px;
-    }
-
     .skillset{
        flex-direction: column;
     }
