@@ -9,6 +9,8 @@ demo: https://monty420420.github.io/FE_PF/
 - javascript : 버튼 클릭, 스크롤 이동등 이벤트 기능
 
 3. 주요특징(소스코드, 사진)
-
+  
+  
 4. 개선사항
--
+- react화 하여 router이용하여 페이지 전환해보기 
+- shapedivider, elegant 디자인 적용해보기
