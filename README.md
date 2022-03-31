@@ -4,9 +4,9 @@ demo: https://monty420420.github.io/FE_PF/
 1. 개발목표: html, css, javascript 연습과 미디어쿼리 활용한 반응형 웹사이트 구현 
 
 2. 사용기술
-- html
-- css
-- javascript
+- html : 마크업, 페이지 콘텐트 구조화
+- css : 배경 및 텍스트 스타일링
+- javascript : 버튼 클릭, 스크롤 이동등 이벤트 기능
 
 3. 주요특징(소스코드, 사진)
 
