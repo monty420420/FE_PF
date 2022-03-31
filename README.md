@@ -13,8 +13,10 @@ demo: https://monty420420.github.io/FE_PF/
 ![20220331_173318](https://user-images.githubusercontent.com/72345833/161013163-85fbc928-790b-4b3f-9fd3-999dcb04dda7.png)
 
 - css : root에 공통변수를 지정하여 유지보수시 빠르게 가능하도록함  <br>
-![20220331_173658](https://user-images.githubusercontent.com/72345833/161013853-ec0c7cc1-af40-4beb-a5d7-6d6729726aab.png)
+![20220331_173658](https://user-images.githubusercontent.com/72345833/161013853-ec0c7cc1-af40-4beb-a5d7-6d6729726aab.png) <br>
 
+media query 사용하여 반응형 제작 <br>
+![image](https://user-images.githubusercontent.com/72345833/161014577-def3e63a-ad70-4dd6-acd9-004178eb43de.png)
 
 - js : 재사용성이 높은 부분은 따로 함수를 만들어 필요시 재사용 <br>
 ![20220331_172844](https://user-images.githubusercontent.com/72345833/161012322-2e8190a8-c60f-45ba-80d6-c7708b4eea08.png)
