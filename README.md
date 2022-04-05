@@ -16,7 +16,8 @@ demo: https://monty420420.github.io/FE_PF/
 ![20220331_173658](https://user-images.githubusercontent.com/72345833/161013853-ec0c7cc1-af40-4beb-a5d7-6d6729726aab.png) <br>
 
 - css : media query 사용하여 반응형 제작 <br>
-![20220405_191251](https://user-images.githubusercontent.com/72345833/161732005-18734e4a-2e98-4d1d-9fd3-8febdc477d8b.png)
+![20220405_191251](https://user-images.githubusercontent.com/72345833/161732108-6ff764b1-4f93-4609-9357-e1ab0ce9efad.png)
+
 
 
 - js : 재사용성이 높은 부분은 따로 함수를 만들어 필요시 재사용 <br>
